@@ -205,10 +205,11 @@ label {
 /* ===== LAYOUT STYLES ====== */\
 
 body {
-	background-color: CDCDCD;
+	background-color: #CDCDCD;
 	font-size: 1em;
 	font-family: Arial, serif, Times New Roman;
 	text-align: center;
+	content-align: center;
 }
 
 h1 {
@@ -216,11 +217,13 @@ h1 {
 	background-color: #C8C8C8;
 	font-size: 2em;
 	line-height: 1em;
+	text-align: center;
 }
 
 p {
 	padding: 2.5%;
 	line-height: 1em;
+	text-align: center: 
 }
 
 li {
@@ -234,8 +237,9 @@ ol {
 }
 
 #input-age-verification {
-	width: 40%;
+	width: 40%;	
 	height: 20px;
+	background-color: #C8C8C8;
 }
 
 #input-email {
