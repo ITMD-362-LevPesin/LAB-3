@@ -209,7 +209,7 @@ body {
 	font-size: 1em;
 	font-family: Arial, serif, Times New Roman;
 	text-align: center;
-	content-align: center;
+	align-content: center;
 }
 
 h1 {
