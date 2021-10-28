@@ -206,3 +206,26 @@ label {
 
 
 /* ===== STATE STYLES ======= */
+@media screen and (min-width: 992px) {
+	h1 {
+		font-size: 2em;
+	}
+	
+	p {
+		font-size: 1.5em;
+		padding: 14px;
+	}
+	
+	label {
+		font-size: 0.75em;
+	}
+	
+	input {
+		width: 50%
+	}
+	
+	
+	#age-verification {
+		width: 25%;
+	}
+}
