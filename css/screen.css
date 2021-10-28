@@ -203,25 +203,68 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+#content {
+	text-align: center;
+}
+
+body {
+	background-color: #7F8F85;
+	font-size: 1em;
+	font-family: Arial, serif, Times New Roman;
+}
+
+h1 {
+	padding: 5%;
+	background-color: #C8C8C8;
+	font-size: 2em;
+	line-height: 1em;
+}
+
+p {
+	padding: 5%;
+	line-height: 1em;
+}
+
+ol li {
+	padding: 5%;
+	background-color: #ADADAC;
+}
+
+#input-age-verification {
+	width: 20%;
+	height: 20px;
+}
+
+#input-email {
+	margin-top: 5%;
+}
 
 
+	
+	
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 992px) {
 	h1 {
 		font-size: 2em;
+		font-align: center;
 	}
 	
 	p {
 		font-size: 1.5em;
 		padding: 14px;
+		font-align: left;
 	}
 	
 	label {
 		font-size: 0.75em;
 	}
 	
-	input {
+	#input-email {
 		width: 50%
+	}
+	
+	#input-submit {
+		width: 15%;
 	}
 	
 	
