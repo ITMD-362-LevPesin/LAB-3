@@ -202,14 +202,12 @@ label {
   display: block;
 }
 
-/* ===== LAYOUT STYLES ====== */\
+/* ===== LAYOUT STYLES ====== */
 
 body {
 	background-color: #979491;
 	font-size: 1em;
 	font-family: Arial, serif, Times New Roman;
-	text-align: center;
-	align-content: center;
 }
 
 h1 {
@@ -223,7 +221,7 @@ h1 {
 p {
 	padding: 2.5%;
 	line-height: 1em;
-	text-align: center: 
+	text-align: center;
 }
 
 li {
@@ -240,46 +238,73 @@ input {
 	background-color: #C8C8C8;
 }
 
+#email {
+	width:  85%;
+}
+
 #input-age-verification {
-	width: 40%;	
-	height: 20px;
+	height: 30px;
+	padding-left: 25%;
+}
+
+label {
+	display: inline-block;
 }
 
 #input-email {
 	margin-top: 5%;
 }
 
+#submit {
+	margin-left: 5%;
+	width: 90%;
+}
+
 #input-submit {
 	line-height: 1.5em;
+	padding-top: 20px;
 }	
 	
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 992px) {
 	h1 {
 		font-size: 2em;
-		font-align: center;
 	}
-	
+  
+	body {
+	    width: 60%;
+        vertical-align: middle;
+        margin: auto;
+	}
+  
 	p {
 		font-size: 1.5em;
 		padding: 14px;
-		font-align: left;
 	}
-	
-	label {
-		font-size: 0.75em;
-	}
-	
-	#input-email {
-		width: 50%
-	}
-	
-	#input-submit {
-		width: 15%;
-	}
-	
-	
-	#age-verification {
-		width: 25%;
-	}
+		
+	#email {
+        width:  50%;
+        margin: auto;
+    }
+
+    #input-age-verification {
+        height: 30px;
+        padding-left: 1em;
+    }
+
+    label {
+        display: inline-block;
+    }
+
+    #input-email {
+        margin: auto;
+    }
+
+    #submit {
+        margin: auto;
+    }
+
+    #input-submit {
+        width: 20%;
+    }	
 }
